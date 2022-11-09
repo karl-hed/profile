@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&family=Roboto:wght@300;400;500;700;900&family=Varela&display=swap');
+
+
+body {
+  background-color: rgb(247, 249, 252);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #3fb99d;
+  font-size: 32px;
+}
+
+h2 {
+  font-family: 'Valera', sans-serif;
+  color: #3fb99d;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #60dcbf;
+  font-size: 19px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Varela', sans-serif;
+  font-weight: 400;
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: rgb(20, 54, 66);
+  padding: 15px 20px;
+  color: white;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.btn-blue:hover {
+  background-color: rgb(15, 139, 141);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(23, 86, 118);
+}
+
+.list-inline i:hover {
+  color: rgb(81, 187, 254);
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
